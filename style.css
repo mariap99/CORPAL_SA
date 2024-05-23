@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+:root {
+    --color-primario: #c22627;
+    --color-secundario: #A9A7A5;
+    --color-terciario: #000;
+    --color-logo: #7b7c7e
+    --tamanio-fuente: 16px;
+}
+
+*{
+    font-family: "Lato", sans-serif;
+}
+
+.whatsapp-link {
+    position: fixed;
+    bottom: 20px; 
+    right: 20px; 
+    background-color: #25d366; 
+    color: #fff; 
+    width: 60px; 
+    height: 60px;
+    border-radius: 50%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px; 
+    z-index: 1000; 
+}
+.whatsapp-link{
+    text-decoration: none;
+}
+.whatsapp-link:hover {
+    background-color: #128c7e;
+}
+  
+
+/*navbar*/
+.navbar{
+    background-color: #fff;
+}
+.navbar-nav a{
+    font-size: 17px;
+    font-weight: 700;
+    color: var(--color-logo);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.navbar-brand{
+    height: 50px;
+    width: 50px;
+}
+.navbar-brand img {
+    max-height: 100%;
+}
+.section-padding{
+    padding: 65px;
+}
+.navbar-toggler{
+    padding: 1px 5px;
+    font-size: 18px;
+    line-height: 0.3;
+    background-color: #f6f0f0;
+}
