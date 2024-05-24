@@ -11,11 +11,10 @@
 
 *{
     font-family: "Lato", sans-serif;
-    
 }
 
 body{
-    margin: 10px;
+    margin: 15px;
 }
 .section-header{
     margin-bottom: 20px;
@@ -191,8 +190,21 @@ body{
     filter: none;
 }
 
+/* footer */
+footer{
+    background-color: var(--color-primario);
+    height: 20vh;
+    padding: 35px 0;
+    color: #f0eedf;
+    width: 100%;
+}
+.redes i{
+    font-size: 25px;
+    margin: 0 15px;
+}
 /* Estilo para pantallas medianas (md) y grandes (lg) */
 @media (min-width: 768px) {
+
 }
 
 /* Estilo para pantallas pequeñas (sm) */
