@@ -201,6 +201,7 @@ footer{
 .redes i{
     font-size: 25px;
     margin: 0 15px;
+    cursor: pointer;
 }
 /* Estilo para pantallas medianas (md) y grandes (lg) */
 @media (min-width: 768px) {
