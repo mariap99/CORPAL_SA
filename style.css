@@ -12,6 +12,9 @@
 *{
     font-family: "Lato", sans-serif;
 }
+.section-header{
+    margin-bottom: 20px;
+}
 
 .whatsapp-link {
     position: fixed;
@@ -107,12 +110,12 @@
     border-radius: 5px;
     text-align: start;
 }
-/* Servicios */
+/* Services */
 .services .container{
     width: 100%;
  }
  .services .container .row{
-     margin-bottom: 40px;
+     margin-bottom: 10px;
  }
  .section-header h2{
      font-size: 45px;
@@ -145,3 +148,41 @@
      font-family: "Antonio", sans-serif;
      font-weight: 500;
  }
+
+ /* Why us */
+.choose{
+    margin-bottom: 70px;
+}
+.choose-img img{
+    width: 100%;
+}
+.single-box{
+    padding: 20px;
+}
+.single-box i{
+    font-size: 35px;
+    margin-bottom: 25px;
+    color: var(--color-logo);
+}
+.single-box h2{
+    color: var(--color-logo);
+
+    font-size: 20px;    
+    text-transform: uppercase;
+    letter-spacing: 1px;
+
+    font-family: "Antonio", sans-serif;
+    font-weight: 700;
+}
+
+/* Nos eligen */
+.slider-container {
+    height: 250px;
+}
+.shadow-lg {
+    box-shadow: none !important;
+}
+
+.slider-nav{
+    filter: none;
+}
