@@ -197,5 +197,10 @@ body{
 
 /* Estilo para pantallas pequeñas (sm) */
 @media (max-width: 767px) {
-    
+    .section-padding{
+        padding: 0;
+    }
+    .single-services{
+        margin-bottom: 10px;
+    }
 }
