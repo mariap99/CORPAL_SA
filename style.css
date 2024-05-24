@@ -34,8 +34,6 @@
 .whatsapp-link:hover {
     background-color: #128c7e;
 }
-  
-
 /*navbar*/
 .navbar{
     background-color: #fff;
@@ -62,4 +60,49 @@
     font-size: 18px;
     line-height: 0.3;
     background-color: #f6f0f0;
+}
+/* Carousek */
+.carousel{
+    height: 100vh;
+    width: 100%;
+    background-image: url('http://imgfz.com/i/KSQ83rs.png');
+    background-size: cover;
+    background-position: center;
+}
+.carousel-item{
+    height: 100vh;
+    min-height: 300px;
+}
+.carousel-caption{
+    bottom: 220px;
+    z-index: 2;
+    left: 8%;
+    width: 60%;
+}
+.carousel-caption h5{
+    font-size: 50px;
+    margin-top: 25px;
+    color: var(--color-secundario);
+    font-weight: 900;
+    text-align: start;
+}
+.carousel-caption h5 span{
+    color: var(--color-primario);
+}
+.carousel-caption p{
+    font-size: 25px;
+    line-height: 1.8;
+    color: #fff;
+    text-align: start;
+}
+.carousel-caption a{
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: var(--color-primario);
+    padding: 5px 20px;
+    display: inline-block;
+    color: #fff;
+    margin-top: 15px;
+    border-radius: 5px;
+    text-align: start;
 }
