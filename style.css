@@ -61,7 +61,7 @@
     line-height: 0.3;
     background-color: #f6f0f0;
 }
-/* Carousek */
+/* Carousel */
 .carousel{
     height: 100vh;
     width: 100%;
@@ -76,7 +76,7 @@
 .carousel-caption{
     bottom: 220px;
     z-index: 2;
-    left: 8%;
+    left: 15%;
     margin-top: 100px;
     width: 60%;
 }
@@ -107,3 +107,41 @@
     border-radius: 5px;
     text-align: start;
 }
+/* Servicios */
+.services .container{
+    width: 100%;
+ }
+ .services .container .row{
+     margin-bottom: 40px;
+ }
+ .section-header h2{
+     font-size: 45px;
+     color: var(--color-secundario);
+     font-weight: 700;
+     text-align: center;
+ }
+ .section-header h2 span{
+     color: var(--color-primario);
+ }
+ /* AGREGAR MARGIN BOTTOM EN MOBILE*/
+ .single-services{
+     background-color: var(--color-primario);
+     color: #f0eedf;
+     padding: 30px 15px;
+     text-align: center;
+     height: 200px;
+ }
+ .single-services i{
+     padding: 20px 0;
+     font-size: 40px;
+ }
+ .single-services h5{
+     font-size: 20px;
+     color: #f0eedf;
+     
+     text-transform: uppercase;
+     letter-spacing: 1px;
+ 
+     font-family: "Antonio", sans-serif;
+     font-weight: 500;
+ }
