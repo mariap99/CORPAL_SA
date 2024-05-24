@@ -11,11 +11,15 @@
 
 *{
     font-family: "Lato", sans-serif;
+    
+}
+
+body{
+    margin: 10px;
 }
 .section-header{
     margin-bottom: 20px;
 }
-
 .whatsapp-link {
     position: fixed;
     bottom: 20px; 
@@ -74,7 +78,7 @@
 }
 .carousel-item{
     height: 100vh;
-    min-height: 300px;
+    margin-top: 80px;
 }
 .carousel-caption{
     bottom: 220px;
