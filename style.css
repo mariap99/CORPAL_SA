@@ -190,3 +190,12 @@ body{
 .slider-nav{
     filter: none;
 }
+
+/* Estilo para pantallas medianas (md) y grandes (lg) */
+@media (min-width: 768px) {
+}
+
+/* Estilo para pantallas pequeñas (sm) */
+@media (max-width: 767px) {
+    
+}
