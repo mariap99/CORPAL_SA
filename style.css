@@ -78,6 +78,7 @@ body{
 .carousel-item{
     height: 100vh;
     margin-top: 80px;
+
 }
 .carousel-caption{
     bottom: 220px;
@@ -209,11 +210,20 @@ footer{
 }
 
 /* Estilo para pantallas pequeñas (sm) */
-@media (max-width: 767px) {
+@media (max-width: 768px) {
     .section-padding{
         padding: 0;
     }
     .single-services{
         margin-bottom: 10px;
     }
+   .carousel{
+    height: 600px;
+   }
+   .carousel-caption{
+    margin-bottom: 20px;
+   }
+   footer{
+    height: 130px;
+   }
 }
